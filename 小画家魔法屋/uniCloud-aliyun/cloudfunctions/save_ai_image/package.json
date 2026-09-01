@@ -1,0 +1,11 @@
+{
+  "name": "save_ai_image",
+  "version": "1.0.0",
+  "description": "代理下载AI生成图片并上传到云存储，绕过H5 CORS限制",
+  "main": "index.js",
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 60
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "generate_tts",
+  "version": "1.0.0",
+  "description": "代理火山引擎TTS语音合成API",
+  "main": "index.js",
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 60
+  }
+}

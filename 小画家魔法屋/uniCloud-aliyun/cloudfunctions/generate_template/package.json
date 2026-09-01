@@ -1,0 +1,11 @@
+{
+  "name": "generate_template",
+  "version": "1.0.0",
+  "description": "调用豆包文生图API生成黑白线稿",
+  "main": "index.js",
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 60
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chat_deepseek_vision",
+  "version": "1.0.0",
+  "description": "DeepSeek multimodal companion chat",
+  "main": "index.js",
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 60
+  }
+}

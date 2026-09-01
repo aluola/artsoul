@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xxd \"d:/Hbuilder/Project/artsoul/小画家魔法屋/pages/index/index.vue\")",
+      "Bash(xxd)",
+      "Bash(python3)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"print\\('hello'\\)\")",
+      "Bash(node -e \"console.log\\('hello'\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"console.log\\('\\\\\\\\\\\\\\\\n test:', '\\\\\\\\\\\\\\\\n'.length, '\\\\\\\\\\\\\\\\n'.charCodeAt\\(0\\), '\\\\\\\\\\\\\\\\n'.charCodeAt\\(1\\)\\)\")",
+      "Bash(cat)",
+      "Bash(node /tmp/test.js)",
+      "Bash(xxd /tmp/test.txt)",
+      "Bash(xxd \"d:/Hbuilder/Project/artsoul/小画家魔法屋/test_out.txt\")"
+    ]
+  }
+}

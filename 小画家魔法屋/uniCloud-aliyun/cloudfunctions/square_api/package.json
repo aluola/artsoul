@@ -1,0 +1,7 @@
+{
+  "name": "square_api",
+  "version": "1.0.0",
+  "description": "小伙伴广场云函数",
+  "main": "index.js",
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "recognize_drawing",
+  "version": "1.0.0",
+  "description": "调用豆包视觉大模型识别儿童画作",
+  "main": "index.js",
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 60
+  }
+}

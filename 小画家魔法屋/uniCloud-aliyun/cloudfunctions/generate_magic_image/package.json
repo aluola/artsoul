@@ -1,0 +1,11 @@
+{
+  "name": "generate_magic_image",
+  "version": "1.0.0",
+  "description": "调用豆包图生图API并上传云存储",
+  "main": "index.js",
+  "dependencies": {},
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 60
+  }
+}

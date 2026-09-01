@@ -1,0 +1,63 @@
+{
+  "bsonType": "object",
+  "description": "Public companion characters shared by users",
+  "required": [
+    "name",
+    "description",
+    "imageUrl",
+    "imageFileID",
+    "creatorName",
+    "createdAt"
+  ],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false,
+    "count": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Cloud database record ID"
+    },
+    "name": {
+      "bsonType": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "description": {
+      "bsonType": "string",
+      "maxLength": 500
+    },
+    "imageUrl": {
+      "bsonType": "string",
+      "description": "Permanent cloud fileID; kept for existing clients"
+    },
+    "imageFileID": {
+      "bsonType": "string",
+      "description": "Permanent cloud fileID used to resolve a temporary URL"
+    },
+    "creatorName": {
+      "bsonType": "string",
+      "maxLength": 50
+    },
+    "creatorAvatar": {
+      "bsonType": "string",
+      "maxLength": 200
+    },
+    "personality": {
+      "bsonType": "string",
+      "maxLength": 100
+    },
+    "specialty": {
+      "bsonType": "string",
+      "maxLength": 100
+    },
+    "createdAt": {
+      "bsonType": "number"
+    },
+    "updatedAt": {
+      "bsonType": "number"
+    }
+  }
+}

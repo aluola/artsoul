@@ -1,0 +1,17 @@
+node_modules/
+.project
+.DS_Store
+.idea
+.vscode/
+unpackage/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.mp4
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets.local.json
+**/.claude/settings.local.json
+~$*.docx
